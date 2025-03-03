@@ -16,18 +16,18 @@ pygame.display.set_caption("Plane Fighting Game - A Next-Space Software")
 clock = pygame.time.Clock()
 
 # Load images
-player_image = pygame.image.load("player_imagejpeg.jpeg").convert_alpha()
-player_image = pygame.transform.scale(player_image, (50, 50))  # Adjust size as needed
-enemy_image = pygame.image.load("enemy_image.jpeg").convert_alpha()
-enemy_image = pygame.transform.scale(enemy_image, (50, 50))  # Adjust size as needed
-background_image = pygame.image.load("background.webp")
+player_image = pygame.image.load("images/player_imagejpeg.jpeg").convert_alpha()
+player_image = pygame.transform.scale(player_image, (50, 50)) 
+enemy_image = pygame.image.load("images/enemy_image.jpeg").convert_alpha()
+enemy_image = pygame.transform.scale(enemy_image, (50, 50))
+background_image = pygame.image.load("images/background.webp")
 background_image = pygame.transform.scale(background_image, (screen_width, screen_height))
 bullet_image = pygame.Surface((8, 20))
 bullet_image.fill((255, 0, 0))
 
 # Load sounds
-shoot_sound = pygame.mixer.Sound("shot.mp3")
-explosion_sound = pygame.mixer.Sound("explode.mp3")
+shoot_sound = pygame.mixer.Sound("sounds/shot.mp3")
+explosion_sound = pygame.mixer.Sound("sounds/explode.mp3")
 
 # Score variables
 score = 0
