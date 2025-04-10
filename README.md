@@ -1,6 +1,6 @@
 # Plane Fighting Game
 
-![Game Screenshot](screenshot.png) <!-- Add a screenshot if available -->
+![Game Screenshot](./images/image.png)
 
 A simple 2D plane fighting game built using Python and Pygame. Control your fighter jet, shoot down enemy planes, and score as many points as you can!
 
@@ -44,9 +44,9 @@ A simple 2D plane fighting game built using Python and Pygame. Control your figh
    pip install Pygame
 ```
 3. **Download the assets**
-- Background image: [download](Player_image.jpeg)
-- Background image: [download](background.webp)
-- Background image: [download](enemy_image.jpeg)
+- Background image: [download](./images/player_imagejpeg.jpeg)
+- Background image: [download](./images/background.webp)
+- Background image: [download](./images/enemy_image.jpeg)
 4. **Run the Game**:
 ```bash
    python main.py
